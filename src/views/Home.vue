@@ -7,8 +7,6 @@
 
 <script lang="ts">
 	import Navbar from "@/components/Navbar.vue"
-	import IsMobile from "ismobilejs"
-	let isMobile: boolean = IsMobile(navigator.userAgent).any
 
 	export default {
 		components: {

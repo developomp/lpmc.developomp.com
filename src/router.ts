@@ -13,7 +13,6 @@ let routes: Array<RouteRecordRaw> = [
         },
         component: Home
     },
-
     {
         path: "/news",
         meta: {
@@ -21,7 +20,6 @@ let routes: Array<RouteRecordRaw> = [
         },
         component: News
     },
-
     {
         path: "/docs",
         meta: {
@@ -29,7 +27,6 @@ let routes: Array<RouteRecordRaw> = [
         },
         component: Docs
     },
-
     {
         path: "/profile",
         meta: {
@@ -37,7 +34,6 @@ let routes: Array<RouteRecordRaw> = [
         },
         component: Profile
     },
-
     {
         path: "/404",
         meta: {
@@ -45,7 +41,6 @@ let routes: Array<RouteRecordRaw> = [
         },
         component: NotFound
     },
-
     {
         path: "/:catchAll(.*)",
         redirect: "/404"
