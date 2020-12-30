@@ -37,6 +37,5 @@ FIREBASE=                # firebase adminsdk private key file name
 | [Bloxat](https://www.fontspace.com/bloxat-font-f31181) | Freeware, Non-Commercial |
 
 # TODO
-- fix not aligned LPMC logo text
-- navbar hamburger for mobile
-- routing for discord authentication
+- focus on backend server
+    - routing for discord authentication
