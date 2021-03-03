@@ -1,11 +1,13 @@
 module.exports = {
-  lintOnSave: false,
-  outputDir: "./dist/client",
-  devServer: {
-    disableHostCheck: true,
-    overlay: {
-      warnings: false,
-      errors: true
-    }
-  }
+	lintOnSave: true,
+	outputDir: "./dist/client",
+	devServer: {
+		// disableHostCheck: true,
+		host: "localhost",
+		public: "mc.developomp.com",
+		overlay: {
+			warnings: false,
+			errors: false,
+		},
+	},
 }

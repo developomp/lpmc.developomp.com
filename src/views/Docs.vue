@@ -5,13 +5,12 @@
 </template>
 
 <script lang="ts">
-	export default {
-	}
+export default {}
 </script>
 
 <style lang="scss">
-	.docs {
-		text-align: center;
-		height: 2000px;
-	}
+.docs {
+	text-align: center;
+	height: 2000px;
+}
 </style>
