@@ -1,6 +1,6 @@
 module.exports = {
 	lintOnSave: true,
-	outputDir: "./dist/client",
+	outputDir: "./dist",
 	devServer: {
 		// disableHostCheck: true,
 		host: "localhost",

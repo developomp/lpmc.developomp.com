@@ -7,7 +7,8 @@
 		<a class="link" href="https://status.developomp.com" target="_">Check server status</a>
 		<br />
 		<br />
-		<!--div class="status"><fa icon="server" type="fa" width="16"></fa> <b>SMP SERVER</b><br />Player: XX/XX</div-->
+		<!--div class="status"><fa icon="server" type="fa" width="16" /> <b>SMP SERVER</b><br />Player: XX/XX</div-->
+		<!--a href="https://github.com/developomp/mc.developomp.com"><fa icon="github" type="fab" width="32" /></a-->
 	</div>
 </template>
 
