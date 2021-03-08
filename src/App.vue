@@ -14,11 +14,15 @@ export default {
 </script>
 
 <style lang="scss">
+$cyanColor: #b8c6e9;
+$vlackColor: #2b3134;
+
 html,
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: white;
 	margin: 0px;
 	padding: 0px;
 }

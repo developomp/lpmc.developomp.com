@@ -1,5 +1,7 @@
 # [mc.developomp.com](https://mc.developomp.com)
 
+> **WARNING: THIS REPOSITORY CONTAINS MILDLY NSFW CONTENT**
+
 This is the repository for the website of the [LP community](https://discord.gg/HvjrMKS)'s minecraft server.
 You can check out world map, player screen shots, server status, etc.
 
@@ -24,3 +26,4 @@ Follow these steps to set this project up in your system:
 # Special thanks
 
 -   `Davidisacookie#9888 (265697563280146433)` for making the LP logo
+-   `Halil Yüce` for making an [awesome guide](https://halilyuce.com/web/how-to-add-font-awesome-to-your-vue-3-project-typescript) for using fontawesome icons with typescript in vue 3

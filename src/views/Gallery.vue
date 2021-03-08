@@ -4,11 +4,25 @@
 		<VuePictureSwipe
 			:items="[
 				{
-					src: 'https://mc.developomp.com/img/lobby.png',
-					thumbnail: 'https://mc.developomp.com/img/lobby.thumb.png',
-					w: 1600,
-					h: 900,
-					title: 'Lobby',
+					src: '/img/lobby.png',
+					thumbnail: '/img/lobby.thumb.png',
+					w: 3840,
+					h: 2160,
+					title: 'Lobby (By: POMP)',
+				},
+				{
+					src: '/img/IceBear/1.png',
+					thumbnail: '/img/IceBear/1.thumb.png',
+					w: 5120,
+					h: 2880,
+					title: 'Doggos (By: Ice Bear)',
+				},
+				{
+					src: '/img/IceBear/2.png',
+					thumbnail: '/img/IceBear/2.thumb.png',
+					w: 5120,
+					h: 2880,
+					title: 'Bee farm (By: Ice Bear)',
 				},
 			]"
 		></VuePictureSwipe>

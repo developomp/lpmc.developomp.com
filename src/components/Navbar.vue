@@ -49,7 +49,7 @@ export default {
 <style lang="scss">
 /* todo: fix bug where navigation links moving to the right is visible when reducing screen size */
 $blueColor: #5d74ec;
-@import url("http://fonts.cdnfonts.com/css/bloxat");
+@import url("https://fonts.cdnfonts.com/css/bloxat");
 
 .navbar {
 	position: fixed;
