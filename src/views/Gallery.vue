@@ -24,6 +24,13 @@
 					h: 2880,
 					title: 'Bee farm (By: Ice Bear)',
 				},
+				{
+					src: '/img/woww/1.png',
+					thumbnail: '/img/woww/1.thumb.png',
+					w: 5120,
+					h: 2880,
+					title: 'overview (By: woww)',
+				},
 			]"
 		></VuePictureSwipe>
 	</div>

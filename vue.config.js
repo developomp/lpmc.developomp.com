@@ -4,7 +4,7 @@ module.exports = {
 	devServer: {
 		// disableHostCheck: true,
 		host: "localhost",
-		public: "mc.developomp.com",
+		public: "lpmc.developomp.com",
 		overlay: {
 			warnings: false,
 			errors: false,
