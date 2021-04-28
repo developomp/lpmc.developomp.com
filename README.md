@@ -1,4 +1,4 @@
-# [mc.developomp.com](https://mc.developomp.com)
+# [lpmc.developomp.com](https://lpmc.developomp.com)
 
 > **WARNING: THIS REPOSITORY CONTAINS MILDLY NSFW CONTENT**
 
