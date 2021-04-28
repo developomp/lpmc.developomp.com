@@ -4,7 +4,6 @@
 		<div class="navigation">
 			<router-link to="/">Home</router-link>
 			<router-link to="/gallery">Gallery</router-link>
-			<router-link to="/docs">Docs</router-link>
 			<router-link to="/map">Map</router-link>
 		</div>
 		<div v-on:click="borgerClick($event)" class="borger">

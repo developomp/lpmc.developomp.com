@@ -2,7 +2,6 @@ import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router"
 import Home from "../views/Home.vue"
 import NotFound from "../views/404.vue"
 import Gallery from "../views/Gallery.vue"
-import Docs from "../views/Docs.vue"
 import Map from "../views/Map.vue"
 
 const routes: Array<RouteRecordRaw> = [
@@ -20,13 +19,6 @@ const routes: Array<RouteRecordRaw> = [
 			title: "Gallery",
 		},
 		component: Gallery,
-	},
-	{
-		path: "/docs",
-		meta: {
-			title: "Docs",
-		},
-		component: Docs,
 	},
 	{
 		path: "/map",

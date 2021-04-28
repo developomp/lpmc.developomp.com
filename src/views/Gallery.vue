@@ -31,6 +31,20 @@
 					h: 2880,
 					title: 'overview (By: woww)',
 				},
+				{
+					src: '/img/IceBear/3.png',
+					thumbnail: '/img/IceBear/3.thumb.png',
+					w: 1980,
+					h: 1234,
+					title: 'Chicken (By: Ice Bear)',
+				},
+				{
+					src: '/img/IceBear/4.png',
+					thumbnail: '/img/IceBear/4.thumb.png',
+					w: 2486,
+					h: 1354,
+					title: 'pp (By: Ice Bear)',
+				},
 			]"
 		></VuePictureSwipe>
 	</div>
