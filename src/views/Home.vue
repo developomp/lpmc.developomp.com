@@ -4,7 +4,7 @@
 		<img alt="LPMC logo" src="/img/llama.png" />
 		<br />
 		<br />
-		<a class="link" href="https://stats.uptimerobot.com/L0NZgsP0ng" target="_">Check server status</a>
+		<a class="link" href="https://status.developomp.com" target="_">Check server status</a>
 		<br />
 		<br />
 		<!--div class="status"><fa icon="server" type="fa" width="16" /> <b>SMP SERVER</b><br />Player: XX/XX</div-->
