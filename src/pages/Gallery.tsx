@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async"
 import ImageGallery from "react-image-gallery"
+import "react-image-gallery/styles/css/image-gallery.css"
 
 const images = [
 	{

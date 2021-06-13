@@ -6,6 +6,7 @@ const blueColor = "#5d74ec"
 const StyledNav = styled.nav`
 	@import url("https://fonts.cdnfonts.com/css/bloxat");
 
+	z-index: 50;
 	position: fixed;
 	top: 0;
 	width: 100vw;
