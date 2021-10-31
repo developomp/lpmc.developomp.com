@@ -9,7 +9,6 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject",
 		"serve_built": "serve -s build"
 	},
 	"dependencies": {
