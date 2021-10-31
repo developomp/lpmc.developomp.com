@@ -18,10 +18,16 @@ This project uses:
 
 ## Setup
 
-1.  Clone this repository.
+1.  Clone this repository. warning: large repo (1.3GB)
 
     ```
     git clone https://github.com/developomp/lpmc.developomp.com.git
+    ```
+
+    only get the last commit (save disk space):
+
+    ```
+    git clone --depth 1 https://github.com/developomp/lpmc.developomp.com.git
     ```
 
 2.  Install dependencies.
