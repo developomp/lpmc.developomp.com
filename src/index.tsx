@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { HelmetProvider } from "react-helmet-async"
-import styled, { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle, css } from "styled-components"
 
 import Navbar from "./components/Navbar"
 
@@ -13,14 +13,20 @@ import Gallery from "./pages/Gallery"
 import Map from "./pages/Map"
 import PageNotFound from "./pages/PageNotFound"
 
-const GlobalStyle = createGlobalStyle`
-	html, body {
+import "semantic-ui-css/semantic.min.css"
+
+// auto format doesn't work when using createGlobalStyle for some reason
+const GlobalStyleCSS = css`
+	html,
+	body,
+	#root > div {
 		font-family: Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-		background-color: white;
-		padding: 0px;
+		padding: 0;
 		margin: 0;
+
+		height: 100%;
+		width: 100%;
 	}
 
 	body::-webkit-scrollbar {
@@ -36,17 +42,17 @@ const GlobalStyle = createGlobalStyle`
 	}
 `
 
+const GlobalStyle = createGlobalStyle`
+	${GlobalStyleCSS}
+`
+
 const StyledApp = styled.div`
 	text-align: center;
-	padding-top: 80px;
 
 	a:link,
 	a:visited {
 		text-decoration: none;
-		display: inline-block;
 		color: blue;
-		text-align: center;
-		vertical-align: center;
 	}
 `
 
@@ -55,8 +61,8 @@ ReactDOM.render(
 		<HelmetProvider>
 			<GlobalStyle />
 			<Router>
-				<Navbar />
 				<StyledApp>
+					<Navbar />
 					<Switch>
 						<Route exact path="/">
 							<Home />
