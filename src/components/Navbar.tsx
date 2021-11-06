@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styled from "styled-components"
 
@@ -77,7 +77,7 @@ const Navigation = styled.div`
 	}
 `
 
-const StyledGithubIcon = styled.a`
+const StyledIcon = styled.a`
 	height: 100%;
 	padding: 1rem;
 
@@ -145,12 +145,24 @@ function Navbar() {
 
 			<StyledRightButtons>
 				<Navigation>{NavButtons}</Navigation>
-				<StyledGithubIcon
+
+				{/* Discord Icon */}
+
+				<StyledIcon href="https://discord.gg/2fsar34APa" target="_">
+					<FontAwesomeIcon icon={faDiscord} />
+				</StyledIcon>
+
+				{/* Github icon */}
+
+				<StyledIcon
 					href="https://github.com/developomp/lpmc.developomp.com"
 					target="_"
 				>
 					<FontAwesomeIcon icon={faGithub} />
-				</StyledGithubIcon>
+				</StyledIcon>
+
+				{/* Sidebar toggle button */}
+
 				<StyledSidebarToggleButton
 					onClick={() => setSidebarVisibility((prev) => !prev)}
 				>

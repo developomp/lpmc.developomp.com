@@ -1,6 +1,8 @@
 # [lpmc.developomp.com](https://github.com/developomp/lpmc.developomp.com)
 
--   [website](https://lpmc.developomp.com)
+![License: MIT](https://img.shields.io/github/license/developomp/lpmc.developomp.com?style=for-the-badge&color=blue)
+[![discord invite](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/2fsar34APa)
+[![website](https://img.shields.io/badge/production_site-grey?style=for-the-badge)](https://lpmc.developomp.com)
 
 > **WARNING: THIS REPOSITORY CONTAINS MILDLY NSFW CONTENT**
 
