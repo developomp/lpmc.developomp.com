@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styled from "styled-components"
 
@@ -51,6 +52,11 @@ const Logo = styled(Link)`
 	}
 `
 
+const StyledRightButtons = styled.div`
+	display: flex;
+	align-items: center;
+`
+
 const Navigation = styled.div`
 	display: flex;
 	font-family: Helvetica;
@@ -68,6 +74,16 @@ const Navigation = styled.div`
 
 	@media only screen and (max-width: 650px) {
 		display: none;
+	}
+`
+
+const StyledGithubIcon = styled.a`
+	height: 100%;
+	padding: 1rem;
+
+	* {
+		font-size: 2.5rem;
+		color: white;
 	}
 `
 
@@ -127,17 +143,21 @@ function Navbar() {
 				LPMC
 			</Logo>
 
-			{/* navigation links  */}
+			<StyledRightButtons>
+				<Navigation>{NavButtons}</Navigation>
+				<StyledGithubIcon
+					href="https://github.com/developomp/lpmc.developomp.com"
+					target="_"
+				>
+					<FontAwesomeIcon icon={faGithub} />
+				</StyledGithubIcon>
+				<StyledSidebarToggleButton
+					onClick={() => setSidebarVisibility((prev) => !prev)}
+				>
+					<FontAwesomeIcon icon={faEllipsisV} />
+				</StyledSidebarToggleButton>
+			</StyledRightButtons>
 
-			<Navigation>{NavButtons}</Navigation>
-
-			{/* sidebar */}
-
-			<StyledSidebarToggleButton
-				onClick={() => setSidebarVisibility((prev) => !prev)}
-			>
-				<FontAwesomeIcon icon={faEllipsisV} />
-			</StyledSidebarToggleButton>
 			<StyledDimmer active={isSidebarVisible} inverted page />
 			<Sidebar
 				animation="overlay"
