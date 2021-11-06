@@ -24,10 +24,9 @@ function Home() {
 			<h1>LPMC</h1>
 			<img alt="LPMC logo" src="/img/llama.png" />
 
-			{/* Server Rules */}
-
 			<Container>
 				<Card.Group centered>
+					{/* Server Rules */}
 					<StyledCard>
 						<Card.Content>
 							<Card.Header>Server Rules</Card.Header>
@@ -53,6 +52,43 @@ function Home() {
 									<List.Item
 										as="li"
 										content="No excessive toxicity (LP discord chat rules apply)."
+									/>
+								</List>
+							</Card.Description>
+						</Card.Content>
+					</StyledCard>
+					{/* How to join server */}
+					<StyledCard>
+						<Card.Content>
+							<Card.Header>How to Join</Card.Header>
+
+							<Card.Meta>
+								<Divider />
+							</Card.Meta>
+
+							<Card.Description>
+								<List as="ol">
+									<List.Item as="li">
+										Join the LP{" "}
+										<a
+											href="https://discord.gg/2fsar34APa"
+											target="_"
+										>
+											discord server
+										</a>
+										.
+									</List.Item>
+									<List.Item
+										as="li"
+										content="Get the 'LPMC access' role (only given to a trusted member of the community)."
+									/>
+									<List.Item
+										as="li"
+										content="Join 'server.lpmc.developomp.com' (version 1.17.1)."
+									/>
+									<List.Item
+										as="li"
+										content="Type '/server smp' to join the SMP server."
 									/>
 								</List>
 							</Card.Description>
